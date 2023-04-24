@@ -1,6 +1,6 @@
 # Simon
 
-## History
+## History test
 "Released in 1978, the memory game Simon became a pivotal part of the 1980s electronic-toy craze. A version of a previous Atari arcade game, Simon was a game with brain. The round device had four different color panels. Players would illuminate a series of colors by touching them in an order of their choosing. Opponents would then have to mimic the pattern exactly or lose. Milton Bradley unveiled the game at New York's famously cool Studio 54 — who'd have thought that Simon would be the one of the pair to survive the 1980s?"
 
 [Time.com] (https://content.time.com/time/specials/packages/article/0,28804,2049243_2048657_2049188,00.html) 
@@ -17,7 +17,7 @@ Link to get PDF of manual from official Hasbro webiste:
 
 ## Wireframe/UI
 
-![Simon Wireframe](https://imgur.com/a/HiKOciw)
+![Simon Wireframe](/Assets/simon-wireframe.jpeg)
 
 1) Starting Page
     1.1) "Simon" should be in center as header

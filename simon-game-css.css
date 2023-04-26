@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+}
+
+main {
+    position: ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://a-static.besthdwallpaper.com/white-chalk-and-blackboard-used-in-schools-for-education-teaching-wallpaper-2048x1536-95599_26.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    background: white;
+    border: 7px solid red;
+    border-radius: 20%;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 80px;
+}
+
+h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+#S, #N {
+    color: blue;
+}
+
+#I {
+    color: red;
+}
+
+#M {
+    color: green;
+}
+
+#O {
+    color: gold;
+}
+
+.game-area {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    position: relative;
+    margin: 30px, 40px;
+}
+
+#red-button, #green-button, #yellow-button, #blue-button {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+#red-button:before, #green-button:before, #yellow-button:before, #blue-button:before {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#red-button:before {
+    top: 0;
+    right: 0;
+    box-shadow: 50px -50px 0 0 white;
+    background-color: red;
+}
+
+#green-button:before {
+    top: 0;
+    left: 0;
+    box-shadow: -50px -50px 0 0 white;
+    background-color: green;
+}
+
+#yellow-button:before {
+    bottom: 0;
+    left: 0;
+    box-shadow: -50px 50px 0 0 white;
+    background-color: yellow;
+    
+}
+
+#blue-button:before {
+    bottom: 0;
+    right: 0;
+    box-shadow: 50px 50px 0 0 white;
+    background-color: blue;
+}
+
+#green-button {
+    background-color: lightgreen;
+
+}
+
+#red-button {
+    background-color: pink;
+
+}
+
+#yellow-button {
+    background-color: lightyellow;
+
+}
+
+#blue-button {
+    background-color: lightblue;
+
+}
+
+
+footer {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+#hide-after-start, #hide-prompt, #hide {
+    display: none;
+}
+
+#remember {
+    color: red;
+}

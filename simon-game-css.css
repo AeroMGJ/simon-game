@@ -6,6 +6,12 @@ main {
     position: ;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -48,13 +54,17 @@ h3 {
     color: gold;
 }
 
+.shows-level {
+    text-align: center;
+}
+
 .game-area {
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 300px;
-    grid-gap: 30px;
-    position: relative;
-    margin: 30px, 40px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    position: center;
+    margin: 0px, 0px;
 }
 
 #red-button, #green-button, #yellow-button, #blue-button {
@@ -76,21 +86,21 @@ h3 {
 #red-button:before {
     top: 0;
     right: 0;
-    box-shadow: 50px -50px 0 0 white;
+    box-shadow: 50px -50px 0 0 transparent;
     background-color: red;
 }
 
 #green-button:before {
     top: 0;
     left: 0;
-    box-shadow: -50px -50px 0 0 white;
+    box-shadow: -50px -50px 0 0 transparent;
     background-color: green;
 }
 
 #yellow-button:before {
     bottom: 0;
     left: 0;
-    box-shadow: -50px 50px 0 0 white;
+    box-shadow: -50px 50px 0 0 transparent;
     background-color: yellow;
     
 }
@@ -98,30 +108,66 @@ h3 {
 #blue-button:before {
     bottom: 0;
     right: 0;
-    box-shadow: 50px 50px 0 0 white;
+    box-shadow: 50px 50px 0 0 transparent;
     background-color: blue;
 }
 
 #green-button {
-    background-color: lightgreen;
+    background-color: ;
 
 }
 
 #red-button {
-    background-color: pink;
+    background-color: ;
 
 }
 
 #yellow-button {
-    background-color: lightyellow;
+    background-color: ;
 
 }
 
 #blue-button {
-    background-color: lightblue;
+    background-color: ;
 
 }
 
+#green-button:hover {
+    background-color: #33ff33;
+}
+#red-button:hover {
+    background-color: #ff0000;
+}
+#yellow-button:hover {
+    background-color: #ffff00;
+}
+#blue-button:hover {
+    background-color: #0000ff;
+}
+
+#green-button.pushed, #green-button:active {
+    background-color: #66ff66;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#red-button.pushed, #red-button:active {
+    background-color: #ff6666;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#yellow-button.pushed, #yellow-button:active {
+    background-color: #ffff66;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#blue-button.pushed, #blue-button:active {
+    background-color: #6666ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
 footer {
     text-align: center;
@@ -132,10 +178,18 @@ button {
     font-family: 'Caveat', cursive;
 }
 
-#hide-after-start, #hide-prompt, #hide {
+#hide-after-start, #hide-message, #hide {
     display: none;
 }
 
-#remember {
+#remember, #red {
     color: red;
+}
+
+p {
+    color:white;
+}
+
+#no-click {
+    pointer-events: none;
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Raleway:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@600&family=Raleway:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simon-game-css.css"/>
+    <link rel="shortcut icon" href="#">
+    <title>SIMON!</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><span id="S">S</span><span id="I">I</span><span id="M">M</span><span id="O">O</span><span id="N">N</span></h1>
+            <h3>How far can you go?</h3>
+        </header>
+
+        <span class="shows-level"></span>
+
+        <section class="game-area" id="no-click">
+            <div id="green-button"></div>
+            <div id="red-button"></div>
+            <div id="yellow-button"></div>
+            <div id="blue-button"></div>
+        </section>
+
+        <footer>
+            <button class="start-game">Let's Do It!</button>
+            <span class="message" id="hide-message"></span>
+        </footer>
+    </main>
+
+    <div class="color audio" id="hide-audio"> 
+        <!-- source link (https://pixabay.com/sound-effects/search/ringtone/) -->
+        <audio src="Assets/digital-alarm-107256.mp3" id="green-sound"></audio>
+        <audio src="Assets/message-ringtone-21467.mp3" id="red-sound"></audio>
+        <audio src="Assets/ringtone-1-46486.mp3" id="yellow-sound"></audio>
+        <audio src="Assets/wheep-wheep-101146.mp3" id="blue-sound"></audio>
+    </div>
+    <script src="simon-game-js.js"></script>
+</body>
+</html>
+

@@ -10,6 +10,7 @@ const heading = document.querySelector('.js-heading');
 const board = document.querySelector('.game-area'); 
 const showLevel = document.querySelector(".shows-level")
 
+//Restarts game and variables after loss; play button comes back; player message area hides; can't click board 
 function restartGame(sorry) { 
   playerMessage.innerHTML = "<span id='red'>AGH! Wrong Color...try again!</span>" 
   computerPicks = []; 
@@ -24,11 +25,13 @@ function restartGame(sorry) {
     level*600 + 1000) 
 }
 
+//During player's turn, board is clickable and message says it's their turn
 function playerTurn(level) { 
     board.classList.remove('unclickable'); 
     playerMessage.innerText = "Your turn!" 
 }
 
+//What happens when a color is clicked by computer; appropriate sound is played; color is activated to pushed state; unactivated afterwards
 function pushColorButton(color) { 
   const colorBut = document.querySelector(`[id="${color}-button"]`) 
   const sound = document.querySelector(`[id="${color}-sound"]`) 
@@ -41,6 +44,7 @@ function pushColorButton(color) {
     300);
 }
 
+//For each level, the computer clicks appropriate buttons with delay for player
 function playLevel(nextComputerPicks) { 
     nextComputerPicks.forEach((color, colorIndex) => {
     setTimeout(() => { 
@@ -49,12 +53,14 @@ function playLevel(nextComputerPicks) {
   });
 }
 
+//Used to choose random computer picked color
 function nextColor() {
   const randomColor = colorButtons[Math.floor(Math.random()*4)]
 
   return randomColor; 
 }
 
+//proceeds to next level; makes board unclickable while computer gives sequence with respective messages; computer adds a color to current picks; delay for user 
 function nextLevel() { 
   level += 1;
 
@@ -72,6 +78,7 @@ function nextLevel() {
   }, level * 600 + 1000);
 }
 
+//what happens when color is clicked by player; sound plays; comparison ensues with results
 function butPushed(colorBut) {
   const colorIndex = playerPicks.push(colorBut) - 1;
   const sound = document.querySelector(`[id="${colorButtons[colorIndex]}-sound"]`)
@@ -92,6 +99,7 @@ function butPushed(colorBut) {
   }
 }
 
+//what happens when play button is pressed; button hides; player messages show instead; starts next level function
 function runPlayButton() {
     playButton.setAttribute("id", "hide-after-start")
     playerMessage.removeAttribute("id")
@@ -99,7 +107,10 @@ function runPlayButton() {
     nextLevel();
 }
 
+//listens to clcik of play button and game starts
 playButton.addEventListener('click', runPlayButton);
+
+//listens to click on color and runs function of button pushed
 board.addEventListener('click', event => {
   const  colorBut  = event.target.id.split("-")[0]
 

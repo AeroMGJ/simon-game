@@ -23,13 +23,13 @@ PDF of manual from official Hasbro webiste:
 
 ## Game
 1) First Page
-![First Page](/Assets/first-page.png)
+![First Page](/Assets/computer-animation.png)
 
-2) Player's Turn
-![Player's Turn](/Assets/player-turn.png)
+2) Computer Animation
+![Computer Animation](/Assets/player-turn.png)
 
-3) Computer Animation
-![Computer Animation](/Assets/computer-animation.png)
+3) Player's Turn
+![Player's Turn](/Assets/first-page.png)
 
 [SIMON!](https://aeromgj.github.io/simon-game/)
 

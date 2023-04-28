@@ -87,3 +87,8 @@ Link to get PDF of manual from official Hasbro webiste:
     1) Game is over once the computer and player color patterns aren't the same. 
     2) There needs to be a comparison function always checking during the player's guess.
     2) It's all about geting the highest score possible
+
+## Planned Future Enhancements
+1) Get game to be fully functional
+2) Optimize CSS for more realistic buttons and animations
+3) Have quicker and more pleasant sounds

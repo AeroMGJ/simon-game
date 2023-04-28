@@ -14,6 +14,13 @@ The game will give a sequence of colors that the player must remember and input 
 Link to get PDF of manual from official Hasbro webiste:
 [Hasbro.com](https://instructions.hasbro.com/en-us/instruction/simon-game)
 
+## Game
+
+![First Page](/Assets/first-page)
+![Player's Turn](/Assets/payer-turn)
+![Computer Animation](/Assets/computer-animation)
+
+[SIMON!](http://127.0.0.1:5500/zindex.html)
 
 ## Wireframe/UI
 

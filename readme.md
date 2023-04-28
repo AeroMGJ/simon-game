@@ -16,9 +16,9 @@ Link to get PDF of manual from official Hasbro webiste:
 
 ## Game
 
-![First Page](/Assets/first-page)
-![Player's Turn](/Assets/payer-turn)
-![Computer Animation](/Assets/computer-animation)
+![First Page](/Assets/first-page.png)
+![Player's Turn](/Assets/payer-turn.png)
+![Computer Animation](/Assets/computer-animation.png)
 
 [SIMON!](http://127.0.0.1:5500/zindex.html)
 

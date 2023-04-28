@@ -22,15 +22,22 @@ PDF of manual from official Hasbro webiste:
 4) Get to the highest level you can!
 
 ## Game
-
+1) First Page
 ![First Page](/Assets/first-page.png)
+
+2) Player's Turn
 ![Player's Turn](/Assets/player-turn.png)
+
+3) Computer Animation
 ![Computer Animation](/Assets/computer-animation.png)
 
-[SIMON!](http://127.0.0.1:5500/zindex.html)
+[SIMON!](https://aeromgj.github.io/simon-game/)
 
 ## Technology Used
-1) External audio files for buttons clicked 
+1) External audio files for buttons clicked (https://pixabay.com/sound-effects/search/ringtone/)
+2) HTML
+3) Vanilla Javascript
+4) CSS
 
 ## Planned Future Enhancements
 1) Get game to be fully functional

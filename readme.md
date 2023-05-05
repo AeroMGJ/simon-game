@@ -31,6 +31,9 @@ PDF of manual from official Hasbro webiste:
 3) Player's Turn
 ![Player's Turn](/Assets/first-page.png)
 
+4) End of Game Message
+![End of Game Message](/Assets/end-of-game-message.png)
+
 [SIMON!](https://aeromgj.github.io/simon-game/)
 
 ## Technology Used

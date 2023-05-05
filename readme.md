@@ -34,7 +34,7 @@ PDF of manual from official Hasbro webiste:
 4) End of Game Message
 ![End of Game Message](/Assets/end-of-game-message.png)
 
-[SIMON!](https://aeromgj.github.io/simon-game/)
+Click here to play: [SIMON!](https://aeromgj.github.io/simon-game/)
 
 ## Technology Used
 1) External audio files for buttons clicked (https://pixabay.com/sound-effects/search/ringtone/)

@@ -169,7 +169,6 @@ footer {
 
 .message {
     color: white;
-    /* border: 7px solid white; */
     border-radius: 25%;
     padding: 10px;
 }
@@ -185,7 +184,7 @@ button {
     background: white;
 }
 
-#hide-after-start, #hide-message, #hide {
+.hide {
     display: none;
 }
 
@@ -197,6 +196,6 @@ p {
     color:white;
 }
 
-#no-click {
+.no-click {
     pointer-events: none;
 }

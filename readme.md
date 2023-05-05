@@ -40,6 +40,6 @@ PDF of manual from official Hasbro webiste:
 4) CSS
 
 ## Planned Future Enhancements
-1) Get game to be fully functional
+1) Get better sounds
 2) Optimize CSS for more realistic buttons and animations
-3) Have quicker and more pleasant sounds
+3) Fix background problem with narrow window sizes

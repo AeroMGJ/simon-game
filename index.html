@@ -25,25 +25,24 @@
 
         <span class="shows-level"></span>
 
-        <section class="game-area" id="no-click">
-                <div id="green-button"></div>
-                <div id="red-button"></div>
-                <div id="yellow-button"></div>
-                <div id="blue-button"></div>
+        <section class="game-area no-click">
+            <div class="color" id="green-button" data-color="green"></div>
+            <div class="color" id="red-button" data-color="red"></div>
+            <div class="color" id="yellow-button" data-color="yellow"></div>
+            <div class="color" id="blue-button" data-color="blue"></div>
         </section>
 
         <footer>
             <button class="start-game">Let's Do It!</button>
-            <span class="message" id="hide-message"></span>
+            <span class="message" id="hide"></span>
         </footer>
     </main>
 
-    <div class="color audio" id="hide-audio"> 
-        <!-- source link (https://pixabay.com/sound-effects/search/ringtone/) -->
-        <audio src="Assets/digital-alarm-107256.mp3" id="green-sound"></audio>
-        <audio src="Assets/message-ringtone-21467.mp3" id="red-sound"></audio>
-        <audio src="Assets/ringtone-1-46486.mp3" id="yellow-sound"></audio>
-        <audio src="Assets/wheep-wheep-101146.mp3" id="blue-sound"></audio>
+    <div class="color-audio" class="hide"> 
+        <audio src="Assets/dagger_drawn2-89025.mp3" data-sound="green"></audio>
+        <audio src="Assets/quick-swhooshing-noise-80898.mp3" data-sound="red"></audio>
+        <audio src="Assets/quick-sword-draw-100618.mp3"  data-sound="yellow"></audio>
+        <audio src="Assets/skewer1-92885.mp3" data-sound="blue"></audio>
     </div>
     <script src="script.js"></script>
 </body>
